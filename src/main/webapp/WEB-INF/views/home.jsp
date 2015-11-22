@@ -8,7 +8,7 @@
 <h1>
 	Hello world!  
 </h1>
-
+<!-- Comment for STS Push Test -->
 <p>  The time on the server is ${serverTime}. </p>
 <p>${welcomeMessage}</p>
 <p>HAI DOUBLESTUFF</p>
