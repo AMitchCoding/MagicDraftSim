@@ -34,8 +34,13 @@
         <!-- jQuery -->
         <dependency>
             <groupId>org.webjars</groupId>
+            <artifactId>webjars-locator</artifactId>
+            <version>0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.webjars</groupId>
             <artifactId>jquery</artifactId>
-            <version>2.1.4</version>
+            <version>2.0.3</version>
         </dependency>
 
         <!-- Servlet+JSP+JSTL -->
@@ -54,6 +59,14 @@
             <artifactId>jstl</artifactId>
             <version>1.2</version>
         </dependency>
+
+        <!-- JSON -->
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20150729</version>
+        </dependency>
+
     </dependencies>
 
     <build>
@@ -67,7 +80,7 @@
                         <warSourceDirectory>src/main/webapp</warSourceDirectory>
                         <warName>MagicDraftSim</warName>
                         <failOnMissingWebXml>false</failOnMissingWebXml>
-                        <outputDirectory>C:\apache-tomcat-9.0.0.M1\webapps</outputDirectory>
+                        <outputDirectory>${tomcat.dir}</outputDirectory>
                     </configuration>
                 </plugin>
             </plugins>

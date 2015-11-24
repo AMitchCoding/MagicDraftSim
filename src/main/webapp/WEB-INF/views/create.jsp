@@ -27,16 +27,18 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="<c:url value='/main' />">Magic Draft Simulator</a>
+                <a class="navbar-brand" href="<c:url value='/main'/>">Magic Draft Simulator</a>
             </div>
             <div id="navbar" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="<c:url value='/create' />">Create Room</a></li>
+                    <li class="active"><a href="<c:url value='/create' />">Create Room</a></li>
                     <li><a href="#join">Join Room</a></li>
                 </ul>
             </div>
         </div>
     </nav>
+    <form method="POST" modelAttribute="user">
+        <input type="submit" value="Create Room"/>
+    </form>
 </div>
 </body>
-</html>

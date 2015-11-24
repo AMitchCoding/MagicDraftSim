@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="MagicDraftSim:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="MagicDraftSim.war">
+      <element id="artifact" artifact-name="MagicDraftSim:war exploded" />
+    </root>
+  </artifact>
+</component>
