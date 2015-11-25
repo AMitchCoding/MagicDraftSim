@@ -50,7 +50,16 @@ public class MagicDraftSim {
         }
 
         //Build boosters
-        ArrayList<JSONArray> boosters = new ArrayList<JSONArray>();
-        Random random = new Random();
+        ArrayList<JSONObject[]> boosters = new ArrayList<JSONObject[]>();
+        Date now = new Date();
+        Random random = new Random(now.getTime());
+
+        //initialize i with number of players
+        for(int i = 3; i > 0; i--){
+            //Add commons
+            for(int c = 10; i > 0; i--){
+
+            }
+        }
     }
 }
